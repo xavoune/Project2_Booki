@@ -1,0 +1,81 @@
+@media screen and (max-width: 992px) {
+
+    /* Filters */
+
+    .filters {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    /*----------------------------------------*/
+
+    /* SECTION Accomodations and most popular */
+
+    .accomodations_and_most_popular {
+        height: auto;
+        flex-wrap: wrap;
+        margin: 0px;
+    }
+
+    /* Accomodation in Marseille */
+
+    .accomodations_marseille {
+        width: 100%;
+        min-height: 850px;
+        margin: 20px;
+    }
+
+    /* Accomodations container */
+
+    .accomodations_container {
+        min-height: 700px;
+        justify-content: space-around;
+    }
+
+    /* Accomodations cards */
+
+    .accomodations_cards {
+        width: 45%;
+        height: 30%;
+    }
+
+    /* Most popurlar in Marseille */
+
+    .most_popular_marseille {
+        width: 100%;
+        margin: 20px;
+    }
+
+    /*----------------------------------------*/
+
+    /*SECTION Activities in Marseille */
+
+    .activities_marseille {
+        height: auto;
+        margin: 20px;
+    }
+
+    /* Activities container */
+
+    .activities_container {
+        min-height: 1000px;
+        flex-wrap: wrap;
+        align-content: space-around;
+    }
+
+    /* Activities_column */
+
+    .activities_column {
+        width: 45%;
+    }
+
+    .activities_column:nth-child(3) {
+        order: 1;
+    }
+
+    /* FOOTER */
+
+    .footer_section {
+        width: 100%;
+    }
+}
